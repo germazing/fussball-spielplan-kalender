@@ -26,20 +26,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:e19046771d8ac1392a6f7d91ec9ac4de0397497567f7f2baafa1fc48db3f7cfd@fussba
- ll-spielplan-kalender
-DTSTAMP:20260912T090304Z
-DTSTART;TZID=Europe/Berlin:20260911T193000
-DTEND;TZID=Europe/Berlin:20260911T211500
-SUMMARY:SV Holthausen Biene - BW Lohne II (3:1)
-DESCRIPTION:Wettbewerb: Landesliga\nhttps://www.fussball.de/spiel/sv-holtha
- usen-biene-bw-lohne-ii/-/spiel/0315MRNUEK000000VS5489BTVU7GTVLE
-URL:https://www.fussball.de/spiel/sv-holthausen-biene-bw-lohne-ii/-/spiel/0
- 315MRNUEK000000VS5489BTVU7GTVLE
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:2e6e868b54c71c9da6fed14158a46de735cb16af8e72a93c556b4c21c6e3306c@fussba
  ll-spielplan-kalender
 DTSTAMP:20260921T102632Z
@@ -169,10 +155,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:338b42a6ca95e27c6400edab3739edd695faacd690b85a3192c37aee0f9bf45a@fussba
  ll-spielplan-kalender
-DTSTAMP:20260912T090304Z
+DTSTAMP:20261116T132430Z
 DTSTART;TZID=Europe/Berlin:20261115T140000
 DTEND;TZID=Europe/Berlin:20261115T154500
-SUMMARY:SV Holthausen Biene - VfL Oldenburg
+SUMMARY:SV Holthausen Biene - VfL Oldenburg (5:1)
 DESCRIPTION:Wettbewerb: Landesliga\nhttps://www.fussball.de/spiel/sv-holtha
  usen-biene-vfl-oldenburg/-/spiel/0315MROA5C000000VS5489BTVU7GTVLE
 URL:https://www.fussball.de/spiel/sv-holthausen-biene-vfl-oldenburg/-/spiel
@@ -304,6 +290,20 @@ DESCRIPTION:Wettbewerb: Landesliga\nhttps://www.fussball.de/spiel/sv-gw-mue
  hlen-sv-holthausen-biene/-/spiel/0315MRO540000000VS5489BTVU7GTVLE
 URL:https://www.fussball.de/spiel/sv-gw-muehlen-sv-holthausen-biene/-/spiel
  /0315MRO540000000VS5489BTVU7GTVLE
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ce0204f67838cf05bf0fd858217f14bf47ae21987357eaf473a6285b2ae3ae03@fussba
+ ll-spielplan-kalender
+DTSTAMP:20261116T132430Z
+DTSTART;TZID=Europe/Berlin:20270418T150000
+DTEND;TZID=Europe/Berlin:20270418T164500
+SUMMARY:SV Holthausen Biene - TV Dinklage
+DESCRIPTION:Wettbewerb: Landesliga\nhttps://www.fussball.de/spiel/sv-holtha
+ usen-biene-tv-dinklage/-/spiel/0315MRO4T8000000VS5489BTVU7GTVLE
+URL:https://www.fussball.de/spiel/sv-holthausen-biene-tv-dinklage/-/spiel/0
+ 315MRO4T8000000VS5489BTVU7GTVLE
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT

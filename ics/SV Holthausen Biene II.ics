@@ -26,20 +26,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:d6236feb1c8ffcceabdf1f9fb3767a771fd4c673a659bc42e0b92913ebc82d46@fussba
- ll-spielplan-kalender
-DTSTAMP:20260917T095155Z
-DTSTART;TZID=Europe/Berlin:20260916T200000
-DTEND;TZID=Europe/Berlin:20260916T214500
-SUMMARY:FC Wesuwe - SV Holthausen Biene II (4:1)
-DESCRIPTION:Wettbewerb: Kreispokal\nhttps://www.fussball.de/spiel/fc-wesuwe
- -sv-holthausen-biene-ii/-/spiel/031R9L0THS000000VS5489BUVVE0O1R6
-URL:https://www.fussball.de/spiel/fc-wesuwe-sv-holthausen-biene-ii/-/spiel/
- 031R9L0THS000000VS5489BUVVE0O1R6
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:490b9cc2ed207e0e0e44914894a991752dc6a0c1e8a04b33eb82bf70d9bdcbc6@fussba
  ll-spielplan-kalender
 DTSTAMP:20260919T091327Z
@@ -170,10 +156,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:c909f94a46edf5b15d3a36e1f380464fffaea0b0f30fb3417cd93554c2b1caed@fussba
  ll-spielplan-kalender
-DTSTAMP:20260917T095155Z
+DTSTAMP:20261116T132430Z
 DTSTART;TZID=Europe/Berlin:20261115T140000
 DTEND;TZID=Europe/Berlin:20261115T154500
-SUMMARY:SV Lengerich-H. - SV Holthausen Biene II
+SUMMARY:SV Lengerich-H. - SV Holthausen Biene II (0:4)
 DESCRIPTION:Wettbewerb: Kreisliga\nhttps://www.fussball.de/spiel/sv-lengeri
  ch-h-sv-holthausen-biene-ii/-/spiel/0317I0VNEG000000VS5489BTVU7GTVLE
 URL:https://www.fussball.de/spiel/sv-lengerich-h-sv-holthausen-biene-ii/-/s
