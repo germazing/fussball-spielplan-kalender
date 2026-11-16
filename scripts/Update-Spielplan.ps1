@@ -16,7 +16,7 @@
   Zielverzeichnis fuer die Rohdaten, wenn -RawDump gesetzt ist.
 
 .PARAMETER DurationMinutes
-  Standard-Spieldauer in Minuten fuer Termine mit bekannter Anstosszeit.
+  Standard-Spieldauer in Minuten fuer Teams ohne eigene durationMinutes-Einstellung.
 #>
 [CmdletBinding()]
 param(
@@ -53,6 +53,52 @@ function ConvertTo-GameKey {
   param($Game)
   if ($Game.MatchUrl) { return $Game.MatchUrl }
   return "$($Game.Heim)|$($Game.Gast)|$($Game.StartLocal.ToString('o'))|$($Game.Competition)"
+}
+
+function Resolve-TeamConfig {
+  param(
+    [string]$TeamName,
+    [object]$Entry,
+    [int]$DefaultDurationMinutes
+  )
+
+  if ($Entry -is [string]) {
+    return [PSCustomObject]@{
+      TeamId          = $Entry
+      DurationMinutes = $DefaultDurationMinutes
+    }
+  }
+
+  if ($Entry -isnot [System.Collections.IDictionary]) {
+    throw "Team '$TeamName': Eintrag muss eine Team-ID als Text oder ein Objekt sein."
+  }
+
+  $hasId = $false
+  $hasDuration = $false
+  foreach ($key in $Entry.Keys) {
+    if ([string]$key -ieq 'id') { $hasId = $true }
+    if ([string]$key -ieq 'durationMinutes') { $hasDuration = $true }
+  }
+
+  $teamId = $Entry['id']
+  if (-not $hasId -or $teamId -isnot [string] -or [string]::IsNullOrEmpty($teamId)) {
+    throw "Team '$TeamName': 'id' muss eine nicht-leere Team-ID als Text sein."
+  }
+
+  $teamDuration = $DefaultDurationMinutes
+  if ($hasDuration) {
+    $parsedDuration = 0
+    $validDuration = [int]::TryParse([string]$Entry['durationMinutes'], [ref]$parsedDuration)
+    if (-not $validDuration -or $parsedDuration -le 0) {
+      throw "Team '$TeamName': 'durationMinutes' muss eine ganze Zahl groesser als 0 sein."
+    }
+    $teamDuration = $parsedDuration
+  }
+
+  return [PSCustomObject]@{
+    TeamId          = $teamId
+    DurationMinutes = $teamDuration
+  }
 }
 
 function New-CalendarGameEntry {
@@ -122,8 +168,9 @@ $anyTeamProducedGames = $false
 $results = @()
 
 foreach ($teamName in $teams.Keys) {
-  $teamId = $teams[$teamName]
-  Write-Host "== $teamName (team-id: $teamId) =="
+  $teamConfig = Resolve-TeamConfig -TeamName $teamName -Entry $teams[$teamName] -DefaultDurationMinutes $DurationMinutes
+  $teamId = $teamConfig.TeamId
+  Write-Host "== $teamName (team-id: $teamId, Spieldauer: $($teamConfig.DurationMinutes) min) =="
 
   try {
     $prevHtml = Get-TeamGamesHtml -TeamId $teamId -Direction 'prev'
@@ -165,7 +212,7 @@ foreach ($teamName in $teams.Keys) {
 
   $anyTeamProducedGames = $true
 
-  $calendarGames = $sortedGames | ForEach-Object { New-CalendarGameEntry -Game $_ -DurationMinutes $DurationMinutes }
+  $calendarGames = $sortedGames | ForEach-Object { New-CalendarGameEntry -Game $_ -DurationMinutes $teamConfig.DurationMinutes }
   $outFile = Join-Path $OutputPath "$teamName.ics"
   Resolve-EventDtStamps -CalendarGames $calendarGames -CalendarName $teamName -ExistingFilePath $outFile -NowStamp $runStamp
   $icsContent = New-IcsCalendar -CalendarName $teamName -Games $calendarGames

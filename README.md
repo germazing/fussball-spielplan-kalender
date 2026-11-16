@@ -17,6 +17,25 @@ Der Kalendername wird gleichzeitig zum Dateinamen (`ics/<Kalendername>.ics`) und
 `X-WR-CALNAME` des Kalenders. Danach den Workflow einmal manuell ausloesen (Tab *Actions* →
 *Update Spielplan* → *Run workflow*) oder auf den naechsten geplanten Lauf warten.
 
+### Spieldauer pro Mannschaft
+
+Standardmaessig dauern Spiele mit bekannter Anstosszeit 105 Minuten. Eine Mannschaft kann
+die Dauer mit `durationMinutes` ueberschreiben; wird die Eigenschaft weggelassen, gilt der
+Standardwert. Die Team-ID kann wie bisher als Text angegeben oder zusammen mit der Dauer als
+Objekt konfiguriert werden:
+
+```json
+{
+  "1. Mannschaft": "011MIC1H74000000VTVG0001VTR8C1K7",
+  "BW96-F3": {
+    "id": "02J69ITKL0000000VS5489B2VT8U044M",
+    "durationMinutes": 10
+  }
+}
+```
+
+Spiele ohne Anstosszeit bleiben als Ganztagstermine eingetragen.
+
 ## Abo-URLs
 
 ```
