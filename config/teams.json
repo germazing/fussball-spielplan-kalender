@@ -1,3 +1,6 @@
 {
-  "BW96-F3": "02J69ITKL0000000VS5489B2VT8U044M"
+  "BW96-F3": {
+    "id": "02J69ITKL0000000VS5489B2VT8U044M",
+    "durationMinutes": 10
+  }
 }
