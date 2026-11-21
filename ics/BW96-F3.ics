@@ -102,61 +102,61 @@ END:VEVENT
 BEGIN:VEVENT
 UID:50bd4ba46640c76f215a4c28847c2237706bd53da697a95e764014a4706412f2@fussba
  ll-spielplan-kalender
-DTSTAMP:20261116T202342Z
+DTSTAMP:20261121T131209Z
 DTSTART;TZID=Europe/Berlin:20261121T110000
 DTEND;TZID=Europe/Berlin:20261121T111000
-SUMMARY:Blau-Weiß 96 3.F-Jun. (J2) - Ellerau 1.F-Jun. (J1)
-DESCRIPTION:Wettbewerb: Hallen-Kreisturnier\nhttps://www.fussball.de/spiel/
- blau-weiss-96-3f-jun-j2-ellerau-1f-jun-j1/-/spiel/0329C00G8S000000VS5489BU
- VV5V31CI
+SUMMARY:[o.E.] Blau-Weiß 96 3.F-Jun. (J2) - Ellerau 1.F-Jun. (J1)
+DESCRIPTION:Wettbewerb: Hallen-Kreisturnier\nStatus: o.E.\nhttps://www.fuss
+ ball.de/spiel/blau-weiss-96-3f-jun-j2-ellerau-1f-jun-j1/-/spiel/0329C00G8S
+ 000000VS5489BUVV5V31CI
 URL:https://www.fussball.de/spiel/blau-weiss-96-3f-jun-j2-ellerau-1f-jun-j1
  /-/spiel/0329C00G8S000000VS5489BUVV5V31CI
-STATUS:CONFIRMED
+STATUS:CANCELLED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:c80bd599c9d5460266eed735424c0b780fe8a86e6d88a5350a3261871fb83943@fussba
  ll-spielplan-kalender
-DTSTAMP:20261116T202342Z
+DTSTAMP:20261121T131209Z
 DTSTART;TZID=Europe/Berlin:20261121T112000
 DTEND;TZID=Europe/Berlin:20261121T113000
-SUMMARY:Groß Flottbek 3.F-Jun. (J1) - Blau-Weiß 96 3.F-Jun. (J2)
-DESCRIPTION:Wettbewerb: Hallen-Kreisturnier\nhttps://www.fussball.de/spiel/
- gross-flottbek-3f-jun-j1-blau-weiss-96-3f-jun-j2/-/spiel/0329C00GBO000000V
- S5489BUVV5V31CI
+SUMMARY:[o.E.] Groß Flottbek 3.F-Jun. (J1) - Blau-Weiß 96 3.F-Jun. (J2)
+DESCRIPTION:Wettbewerb: Hallen-Kreisturnier\nStatus: o.E.\nhttps://www.fuss
+ ball.de/spiel/gross-flottbek-3f-jun-j1-blau-weiss-96-3f-jun-j2/-/spiel/032
+ 9C00GBO000000VS5489BUVV5V31CI
 URL:https://www.fussball.de/spiel/gross-flottbek-3f-jun-j1-blau-weiss-96-3f
  -jun-j2/-/spiel/0329C00GBO000000VS5489BUVV5V31CI
-STATUS:CONFIRMED
+STATUS:CANCELLED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:8218453da812b15ef2f0e689c0781d3d280069d95bab07c1df2e335087f81593@fussba
  ll-spielplan-kalender
-DTSTAMP:20261116T202342Z
+DTSTAMP:20261121T131209Z
 DTSTART;TZID=Europe/Berlin:20261121T115000
 DTEND;TZID=Europe/Berlin:20261121T120000
-SUMMARY:Blau-Weiß 96 3.F-Jun. (J2) - Holsatia im EMTV 4.F-Jun. (J2)
-DESCRIPTION:Wettbewerb: Hallen-Kreisturnier\nhttps://www.fussball.de/spiel/
- blau-weiss-96-3f-jun-j2-holsatia-im-emtv-4f-jun-j2/-/spiel/0329C00GG400000
- 0VS5489BUVV5V31CI
+SUMMARY:[o.E.] Blau-Weiß 96 3.F-Jun. (J2) - Holsatia im EMTV 4.F-Jun. (J2)
+DESCRIPTION:Wettbewerb: Hallen-Kreisturnier\nStatus: o.E.\nhttps://www.fuss
+ ball.de/spiel/blau-weiss-96-3f-jun-j2-holsatia-im-emtv-4f-jun-j2/-/spiel/0
+ 329C00GG4000000VS5489BUVV5V31CI
 URL:https://www.fussball.de/spiel/blau-weiss-96-3f-jun-j2-holsatia-im-emtv-
  4f-jun-j2/-/spiel/0329C00GG4000000VS5489BUVV5V31CI
-STATUS:CONFIRMED
+STATUS:CANCELLED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:ff0069f8734fa512650a007f77ca53c6a639035d5c1389157b7cb7ab78e99031@fussba
  ll-spielplan-kalender
-DTSTAMP:20261116T202342Z
+DTSTAMP:20261121T131209Z
 DTSTART;TZID=Europe/Berlin:20261121T122000
 DTEND;TZID=Europe/Berlin:20261121T123000
-SUMMARY:Rugenbergen 2.F-Jun. (J1) - Blau-Weiß 96 3.F-Jun. (J2)
-DESCRIPTION:Wettbewerb: Hallen-Kreisturnier\nhttps://www.fussball.de/spiel/
- rugenbergen-2f-jun-j1-blau-weiss-96-3f-jun-j2/-/spiel/0329C00GL4000000VS54
- 89BUVV5V31CI
+SUMMARY:[o.E.] Rugenbergen 2.F-Jun. (J1) - Blau-Weiß 96 3.F-Jun. (J2)
+DESCRIPTION:Wettbewerb: Hallen-Kreisturnier\nStatus: o.E.\nhttps://www.fuss
+ ball.de/spiel/rugenbergen-2f-jun-j1-blau-weiss-96-3f-jun-j2/-/spiel/0329C0
+ 0GL4000000VS5489BUVV5V31CI
 URL:https://www.fussball.de/spiel/rugenbergen-2f-jun-j1-blau-weiss-96-3f-ju
  n-j2/-/spiel/0329C00GL4000000VS5489BUVV5V31CI
-STATUS:CONFIRMED
+STATUS:CANCELLED
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
