@@ -204,4 +204,64 @@ URL:https://www.fussball.de/spiel/rantzau-2f-jun-j1-blau-weiss-96-3f-jun-j2
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
+BEGIN:VEVENT
+UID:95f52fb3cd0bd87d00a811e15427f42afca9cba19f147d24d58d678f2a2d7d89@fussba
+ ll-spielplan-kalender
+DTSTAMP:20261125T151505Z
+DTSTART;TZID=Europe/Berlin:20270109T090000
+DTEND;TZID=Europe/Berlin:20270109T091000
+SUMMARY:Blau-Weiß 96 3.F-Jun. (J2) - VfL Pinneberg 4.F-Jun. (J2)
+DESCRIPTION:Wettbewerb: Hallen-Kreisturnier\nhttps://www.fussball.de/spiel/
+ blau-weiss-96-3f-jun-j2-vfl-pinneberg-4f-jun-j2/-/spiel/0329C00N5G000000VS
+ 5489BUVV5V31CI
+URL:https://www.fussball.de/spiel/blau-weiss-96-3f-jun-j2-vfl-pinneberg-4f-
+ jun-j2/-/spiel/0329C00N5G000000VS5489BUVV5V31CI
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d77fed7bb6e57171cf3ffe5dce6af9be8be8b40b4f69ba8e2644191a3f41769b@fussba
+ ll-spielplan-kalender
+DTSTAMP:20261125T151505Z
+DTSTART;TZID=Europe/Berlin:20270109T092000
+DTEND;TZID=Europe/Berlin:20270109T093000
+SUMMARY:SV Lurup 4.F-Jun. (J2) - Blau-Weiß 96 3.F-Jun. (J2)
+DESCRIPTION:Wettbewerb: Hallen-Kreisturnier\nhttps://www.fussball.de/spiel/
+ sv-lurup-4f-jun-j2-blau-weiss-96-3f-jun-j2/-/spiel/0329C00NAK000000VS5489B
+ UVV5V31CI
+URL:https://www.fussball.de/spiel/sv-lurup-4f-jun-j2-blau-weiss-96-3f-jun-j
+ 2/-/spiel/0329C00NAK000000VS5489BUVV5V31CI
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:5579143d17ee2a7d9bbf284da51e2ad259c323ac3a6fc9662bd932f9d67eaf99@fussba
+ ll-spielplan-kalender
+DTSTAMP:20261125T151505Z
+DTSTART;TZID=Europe/Berlin:20270109T095000
+DTEND;TZID=Europe/Berlin:20270109T100000
+SUMMARY:Blau-Weiß 96 3.F-Jun. (J2) - Moorrege 2.F-Jun. (J1)
+DESCRIPTION:Wettbewerb: Hallen-Kreisturnier\nhttps://www.fussball.de/spiel/
+ blau-weiss-96-3f-jun-j2-moorrege-2f-jun-j1/-/spiel/0329C00NIC000000VS5489B
+ UVV5V31CI
+URL:https://www.fussball.de/spiel/blau-weiss-96-3f-jun-j2-moorrege-2f-jun-j
+ 1/-/spiel/0329C00NIC000000VS5489BUVV5V31CI
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:12c1bc1b25174f339a27c2994ac05fbbe1e9c247709648b45d1ea9d969c59263@fussba
+ ll-spielplan-kalender
+DTSTAMP:20261125T151505Z
+DTSTART;TZID=Europe/Berlin:20270109T102000
+DTEND;TZID=Europe/Berlin:20270109T103000
+SUMMARY:Egenbüttel 5.F-Jun. (J2) - Blau-Weiß 96 3.F-Jun. (J2)
+DESCRIPTION:Wettbewerb: Hallen-Kreisturnier\nhttps://www.fussball.de/spiel/
+ egenbuettel-5f-jun-j2-blau-weiss-96-3f-jun-j2/-/spiel/0329C00NPO000000VS54
+ 89BUVV5V31CI
+URL:https://www.fussball.de/spiel/egenbuettel-5f-jun-j2-blau-weiss-96-3f-ju
+ n-j2/-/spiel/0329C00NPO000000VS5489BUVV5V31CI
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
 END:VCALENDAR
